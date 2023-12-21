@@ -3,3 +3,13 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+lista_usuarios:
+    path: /api/listaUsuarios
+    controller: App\Controller\ApiController::listaUsuarios
+    methods: [GET]
+
+add_usuario:
+    path: /api/addUsuario
+    controller: App\Controller\ApiController::addUsuario
+    methods: [POST]
