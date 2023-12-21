@@ -5,6 +5,10 @@
 > La API actualmente dispone de dos peticiones
 > - GET: Devuelve una lista de usuarios -> http://localhost:8000/api/listaUsuarios
 > - POST: Añadir un usuario -> http://localhost:8000/api/addUsuario
+>
+> Para el desarrollo se ha usado XAAMP para levantar el servidor y una base de datos MySQL para gestionar la base de datos:
+> ![image](https://github.com/JGVG/prueba_tnight_php/assets/37996973/618e94ea-d127-4fcd-afb6-83cee6b53255)
+
 
 # Ejecución
 Una vez clonado el repositorio de github y despues de haber abierto el proyecto en Visual Studio Code solo habrá que ir a la consola que la IDE proporciona para ejecutar el arranque de la API usando el siguiente comando de Synfony CLI:
