@@ -21,7 +21,7 @@ symfony server:start
 > [!TIP]
 > Es recomendable tener instalado Postman, un software que tiene el proposito de falicitar el visionado respuestas de peticiones http -> https://www.postman.com/downloads/ pero también podemos usar nuestro navegador para el visualizado del json de respuesta.
 > 
->![image](https://github.com/JGVG/prueba_tnight_php/assets/37996973/4176f1fb-cad0-4a1f-b3dd-45ed3fd83fad)
+>![image](https://github.com/JGVG/prueba_tnight_php/assets/37996973/48c54025-ede1-40a2-87fb-1d8e2d904253)
 
 
 > [!WARNING]
