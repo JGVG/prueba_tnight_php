@@ -2,6 +2,9 @@
 
 > [!NOTE]
 > El objetivo de la prueba es crear un API usando Symfony para mostrar y añadir usuarios creados.
+> La API actualmente dispone de dos peticiones
+> - GET: Devuelve una lista de usuarios -> http://localhost:8000/api/listaUsuarios
+> - POST: Añadir un usuario -> http://localhost:8000/api/addUsuario
 
 # Ejecución
 Una vez clonado el repositorio de github y despues de haber abierto el proyecto en Visual Studio Code solo habrá que ir a la consola que la IDE proporciona para ejecutar el arranque de la API usando el siguiente comando de Synfony CLI:
@@ -19,6 +22,8 @@ symfony server:start
 > [!WARNING]
 > Tenga en cuenta que la API usa el puerto 8000, asegúrese que no tenga nada ejecutandose en dicho puerto.
 
-La API actualmente dispone de dos peticiones
- - GET: Devuelve una lista de usuarios -> [http://localhost:8080/albums](![image](https://github.com/JGVG/prueba_tnight_php/assets/37996973/fda8c986-ea87-4b04-800a-aee85877fb30))
- - POST: Añadir un usuario -> [http://localhost:8080/albums/2/photos](![image](https://github.com/JGVG/prueba_tnight_php/assets/37996973/bb2a9519-c2f5-4e29-916b-f2b75b6872c5))
+# Llamada lista de usuarios:
+![image](https://github.com/JGVG/prueba_tnight_php/assets/37996973/01246279-8448-4367-a476-2ec93ce35c63)
+
+# Añadir usuario:
+![image](https://github.com/JGVG/prueba_tnight_php/assets/37996973/93529e75-08f2-4cf0-9303-339dc7df2e6b)
